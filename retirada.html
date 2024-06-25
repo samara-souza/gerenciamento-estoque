@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Estoque</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="retirada.css">
+</head>
+<body>
+    <header>
+        <a href="home.html"><img src="imgs/gerenciamento-de-armazenagem.png" alt="Logo" id="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="home.html">Lista de Produtos</a></li>
+                <li><a href="cadastrar.html">Cadastrar</a></li>
+				<li><a href="retirada.html">Retirar</a></li>
+                <li><a href="repor.html">Repor</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section class="container">
+
+        <h1>Retirar Produto</h1>
+
+		<ul id="mensagens-erro"></ul>
+
+		<form id="form-altera">
+			<div class="grupo">
+				<label for="codigo">Código:</label>
+				<input id="codigo" name="codigo" type="text" placeholder="" class="campo">
+			</div>
+			<div class="grupo">
+				<label for="nome">Nome:</label>
+				<select id="nome" name="nome" class="campo campo-medio">
+                    <option disabled selected>Nome do Produto</option>
+					<!-- Opções serão adicionadas pelo JS -->
+				</select>
+			</div>
+			<div class="grupo">
+				<label for="valor">Preço:</label>
+				<input id="valor" name="valor" type="text" placeholder="Digite o valor do produto"
+					class="campo campo-medio">
+			</div>
+			<div class="grupo">
+				<label for="quantidade">Quantidade:</label>
+				<input id="quantidade" type="number" placeholder="Digite a quantidade do produto"
+					class="campo campo-medio">
+			</div>
+			<button id="altera-produto" class="botao bto-principal">Registrar</button>
+		</form>
+	</section>
+
+	<script src="alterarProduto.js"></script>
+
+</body>
+</html>

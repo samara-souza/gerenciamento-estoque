@@ -1,0 +1,20 @@
+2001,Caneta Azul,1.99,50
+2002,Caneta Bic Preta,2.49,35
+2003,Lápis Preto,0.75,120
+2004,Borracha Branca,1.25,60
+2005,Apontador Manual,3.99,15
+2006,Pasta Escolar com Zíper,12.99,25
+2007,Mochila Escolar Grande,49.99,10
+2008,Caderno Universitário Espiral,9.99,30
+2009,Livro de Caligrafia,15.99,12
+2010,Dicionário de Inglês,39.99,5
+2011,Caneta Marcadora Textual,3.29,20
+2012,Post-it Colorido,5.99,50
+2013,Clips de Papel,2.99,100
+2014,Grampeador de Mesa,9.99,15
+2015,Furador de Papel,7.50,8
+2016,Régua de 30cm Transparente,4.99,18
+2017,Tesoura Escolar,5.29,25
+2018,Cola Bastão Branca,3.99,30
+2019,Giz de Cera 12 Cores,8.99,12
+2020,Pincel Escolar,2.50,10
